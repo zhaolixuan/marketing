@@ -1,0 +1,86 @@
+// 提示框公共样式
+.alert {
+  width: 560px !important;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 0 0 23px !important;
+  .el-message-box__header {
+    padding: 0 !important;
+    width: 560px;
+    height: 68px;
+    background: rgba(14, 103, 255, 0.08);
+    border-radius: 16px 16px 0px 0px;
+    .el-message-box__title {
+      position: static;
+      width: 100%;
+      height: 100%;
+      .alert-icon {
+        padding: 0;
+      }
+      span {
+        font-size: 22px;
+        font-family: "Microsoft YaHei";
+        font-weight: 500;
+        color: #0D0D0D;
+        line-height: 30px;
+      }
+    }
+  }
+  .el-message-box__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 161px;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: #0D0D0D;
+    line-height: 20px;
+  }
+  .el-message-box__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 0 !important;
+    box-sizing: border-box;
+    &:nth-child(2){
+      margin-left: 20px;
+    }
+    .el-button--default{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 152px;
+      height: 48px;
+      border-radius: 10px;
+      border: 1px solid rgba(13, 13, 13, 0.16);
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      font-weight: 500;
+      color: #0E67FF;
+      line-height: 22px;
+      box-sizing: border-box;
+    }
+    .el-button--primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 152px;
+      height: 48px;
+      background: #0E67FF;
+      border-radius: 10px;
+      border: 1px solid #0E67FF;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      font-weight: 500;
+      color: #FFFFFF;
+      line-height: 22px;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+// 修改密码， 修改用户名， 绑定新手机 三个页面公用一套样式规则
+h3 {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  font-weight: 600;
+  color: #0d0d0d;
+}
+.content_box {
+  width: 100%;
+  min-height: 420px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 30px 0;
+  box-sizing: border-box;
+  .form_box {
+    width: 660px;
+    ::v-deep .el-form-item {
+      .el-form-item__label {
+        padding-right: 20px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: #595959;
+      }
+      .el-input__inner {
+        height: 40px;
+      }
+    }
+  }
+  .btn_box {
+    padding-left: 180px;
+    padding-top: 40px;
+    .el-button {
+      width: 128px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      font-weight: 500;
+      color: #0E67FF;
+      &:hover {
+        border-color: rgba($color: #0E67FF, $alpha: 0.08);
+        background-color: rgba($color: #0E67FF, $alpha: 0.08);
+      }
+    }
+    ::v-deep .el-button--primary {
+      background-color: #0E67FF;
+      &:hover {
+        border-color: #0E67FF;
+        background-color: #0E67FF;
+      }
+      span {
+        color: #fff!important;
+      }
+    }
+  }
+}

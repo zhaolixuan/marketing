@@ -1,0 +1,77 @@
+@font-face {  
+	font-family: 'JDbold';  
+	src: url('jdfont/JDLangZhengTi_Bold.TTF');  
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'JDlight';  
+	src: url('jdfont/JDLangZhengTi_Light.TTF');  
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+.app-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: .24rem; 
+}
+
+
+.swiper-container {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 1200px;
+}
+
+.swiper-container   .swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+} 
+.swiper-container   .swiper-wrapper  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	height: calc((100% - 30px) / 2);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+.swiper-container    .swiper-button-next{
+	width:50px;
+	height:50px;
+	right: 1.5%;
+	left: auto;
+	color: rgba(0, 0, 0, 0)!important;
+	background:url("../static/images/right_btn.png") center center no-repeat;
+	background-size: 50%;
+}
+.swiper-container    .swiper-button-prev{
+	width:50px;
+	height:50px;
+	left: 1.5%;
+	right: auto;
+	color: rgba(0, 0, 0, 0)!important;
+	background:url("../static/images/left_btn.png") center center no-repeat;
+	background-size: 50%;
+}
+
+
+
+.subject .el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+	border-bottom:0;
+  }
